@@ -13,11 +13,11 @@ paginate = 20
 author = "Spencer Obsitnik"
 description = "Spencer's personal website"
 keywords = "blog,developer,personal"
-info = ["shadowysupercoder", "friend"]
+info = ["a place for my projects and musings"]
 avatarURL = "images/rue.jpg"
 #gravatar = "spencerobsitnik@gmail.com"
-footerContent = "You may say I'm a dreamer, but I'm not."
-dateFormat = "August 26, 2021"
+footerContent = "Contact me at on Twitter @spencerobsitnik or by email at spencerobsitnik[at]gmail[dot]com"
+dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = false
 hideCopyright = false
@@ -59,6 +59,12 @@ icon = "fa fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/spencer-obsitnik/"
 
+[[params.social]]
+name = "Youtube"
+icon = "fa fa-youtube"
+weight = 5
+url = "https://www.youtube.com/channel/UCyetyYbdXVvQkhB-rfS5ExQ"
+
 [languages.en]
 languageName = ":uk:"
 
@@ -78,6 +84,11 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Threekly"
+weight = 4
+url = "threekly/"
+
+[[languages.en.menu.main]]
+name = "SOxSO"
 weight = 5
-url = "contact/"
+url = "shoutouts/"
