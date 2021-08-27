@@ -6,4 +6,6 @@ title = "Shoutouts by Spencer O."
 
 This is where I shoutout my friends and other up-and-comers who are making amazing things.  Everything shared with permission.
 
-Mrfacet.com
+[Mr. Facet Cold Worked Glass Art](https://www.mrfacet.com/)
+
+![Some awesome cold work](/images/coldwork.jpg)
