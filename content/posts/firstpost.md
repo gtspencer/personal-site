@@ -6,6 +6,7 @@ description = "A brief description of my first post"
 tags = [
     "firstpost",
     "classiccomedy",
+    "blog",
 ]
 +++
 
