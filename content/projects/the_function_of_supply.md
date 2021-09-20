@@ -17,6 +17,8 @@ categories = [
 +++
 ## An Experiment in the Supply of ERC-20 Tokens
 
+**This is still a work in progress**
+
 ### Abstract
 This "greypaper" serves to identify a little discussed issue.  Popular tokens like Ethereum and Bitcoin, as they gain popularity, inch closer to a divisibility bomb in what I've dubbed "the Satoshi problem."  High market cap coins with limited supply and fixed divisibility will eventually experience a slowdown in the network when users are unable to micro-transact.
 
