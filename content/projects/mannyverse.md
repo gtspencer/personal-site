@@ -1,0 +1,70 @@
++++
+author = "Spencer Obsitnik"
+date = "2021-09-18"
+title = "The Mannyverse: A 3D Web3gl Game"
+description = "Welcome to the Mannyverse"
+tags = [
+  "nft",
+  "ethereum",
+  "bitcoin",
+  "dev",
+  "mannyverse"
+]
+categories = [
+    "dev",
+    "project"
+]
++++
+
+# Welcome to the Mannyverse.
+
+https://kintisbo.itch.io/mannyverse
+
+The Mannyverse is a custom world I built for a popular 3D NFT called [Mannys.game](https://mannys.game/).
+
+## Mannys.game: An Intro
+Manny is a person.  Manny is also a collection of non-fungible digital clones of Manny.
+
+The original NFT Manny created was released as a psycological [game](https://mannys.game/).  He used a 3d body scan of himself as the token, modifying a select number to have a special characterstic (Zombie Manny, Inverted Manny, Silver Manny, etc.).  He allowed people to mint these for .1 eth each (price at the time was about $3k).  Once someone collected each of the 5 different Mannys, they were entitled to mint the Golden Manny, which allowed them to claim all the ethereum people had paid to mint them.  The winner made out with over 80 eth.
+
+In the following weeks, Manny continued to innovate on his NFT, building integrations with other popular NFTs, as well as allowing customization in the form of a tattoo shop.  This continued dedication to the seemingly silly project lead me to a certain fondness for the project.  I bought one.
+
+## The Mannyverse
+I had found a 3d NFT with a lovely community.  As a game developer, I instictually started playing with it in Unity.  I finally had an NFT that could apply functional utility and wanted to share it with the community.  I developed a few tenants that I felt I had to incorporate in order for the game to be successful:
+- Low barrier of entry (aka anybody can play, even without crypto).
+- Social
+- Interactive (duh)
+- Ownable
+
+With this, I created the [Mannyverse](https://kintisbo.itch.io/mannyverse).
+
+The Mannyverse had 4 main parts:
+1. A waiting room, for people without a Manny NFT to enjoy the game
+2. A customizable home environment for Mannys to clothe themselves and display their NFTs
+3. A social hub for Mannys to gather and play mini-games
+4. A puzzle that lead a sole winner to a glorious prize.
+
+The game ultimately surpassed 500 unique players, far more than I could have hoped for (there are 1600 Mannys, but I didn't expect them all to play).
+Below are some tasty teases of the world to explore.
+
+The waiting room (pictured below) enabled players without a Manny to still play.  This space, while sparse, contained a few easter eggs for the over adventurous pseudo-Mannys.
+![Mannyverse waiting room](/images/waitingroom.jpg)
+
+Mannys are shy and thus their home is kept a secret for only holders.  But here's they view they enjoy:
+![Manny view](/images/mannyverse.jpg)
+
+The social hub is even secreter... tucked away in the depths of the Mannyverse...
+
+...and the puzzle is solved!  36 hours after release, our fearless explorer [@spicedreams_](https://twitter.com/spicedreams_) found the secret hidden in layers of obscurity.
+
+The puzzle is detailed in another post.  Read about it [here](/projects/mannyverse_puzzle).
+
+## Gaming NFTs
+I have been excited about the crossroads of games and cryptocurrencies since I have been in the space.  NFTs seemed to be a lucrative way to integrate the technology in to games in many positive ways:
+- Enabling player owned economies
+- Digitially enforcing game item scarcity
+- Interoperable items
+
+But I saw a dark side to all of this.  Speculation is rampant in the crypto community, and in the gaming space it is double.  Countless careless NFT projects get away with promises of "games in Q4 2022!" then either completely ghost their community, or simply don't grasp how difficult game design truly is; building a proper and fun game, one that respects it's community, is difficult and laborsome.  Especially so for 2d images, the leading use for NFTs.
+
+When Manny released his 3d NFT, I saw an opportunity to deliver on an unmade promise, to rectify the hundreds of empty promises made my anonymous teams of derivative NFTs.

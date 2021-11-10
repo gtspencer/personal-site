@@ -1,6 +1,6 @@
 +++
 author = "Spencer Obsitnik"
-title = "Threekly 2: "
+title = "Threekly 2: It Continues..."
 date = "2021-09-17"
 description = "Threekly, the Second"
 tags = [
