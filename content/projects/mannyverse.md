@@ -42,7 +42,7 @@ The Mannyverse had 4 main parts:
 1. A waiting room, for people without a Manny NFT to enjoy the game
 2. A customizable home environment for Mannys to clothe themselves and display their NFTs
 3. A social hub for Mannys to gather and play mini-games
-4. A puzzle that lead a sole winner to a glorious prize.
+4. A (puzzle)[projects/mannyverse_puzzle] that lead a sole winner to a glorious prize.
 
 The game ultimately surpassed 500 unique players, far more than I could have hoped for (there are 1600 Mannys, but I didn't expect them all to play).
 Below are some tasty teases of the world to explore.
