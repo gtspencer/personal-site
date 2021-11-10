@@ -20,5 +20,7 @@ Spencer Obsitnik (born **Speezy F Baby**, November 17, 1995) is an Oscar nominat
 ## Real Stats:
 * Georgia Tech Computer Science grad 2019
 * Virtual reality and Solidity developer
+* Game design guru
 * Aggressive problem-solver
+* Emerging technology hacker
 * Not convinced yet?  See my resume [here](/docs/Spencer_Obsitnik_Resume.pdf)
