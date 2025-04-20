@@ -1,7 +1,7 @@
 +++
 author = "Spencer Obsitnik"
 date = "2021-08-17"
-title = "Past Project Spotlight #1: Flying Blind, a heart-beat sensing game"
+title = "Flying Blind, a heart-beat sensing game"
 description = "A game controlled with the heart"
 tags = [
   "game dev",
@@ -19,6 +19,8 @@ categories = [
 [Code](https://github.com/gtspencer/flying-blind-heartbeat-sensing-game)
 
 # Design
+Flying blind is an experimental VR game where controls are confided to the heart.  Put simply, raise your heartrate to go up, lower your heart rate to go down.
+
 The purpose of this prototype was to incorporate controls that extended beyond the traditional human-computer interaction in game design.
 
 To achieve this, I chose to use off-the-shelf hardware to track a user's heartbeat, which in turn controls the ship they are on.

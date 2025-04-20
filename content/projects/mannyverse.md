@@ -16,18 +16,20 @@ categories = [
 ]
 +++
 
+Disclaimer: At one point I was intrigued by the idea of using verifiably scarce digital assets as primitives in video games.  However revealed incentives of both studios and players signal the near impossibility of this.  CS:GO will never use NFTs for game skins, because they have no financial incentive to do so, and the NFT ecosystem as a whole quickly (maybe immediately) became basterdized by get rich quick schemes, ignoring technological curiosities for sole monetary gain.  In a perfect world, you own your game assets, and can use them anywhere.  But our world is marred in imperfection.
+
 # Welcome to the Mannyverse.
 
 https://kintisbo.itch.io/mannyverse
 
-The Mannyverse is a custom world I built for a popular 3D NFT called [Mannys.game](https://mannys.game/).
+The Mannyverse is a custom world I built for a popular 3D project called [Mannys.game](https://mannys.game/).
 
 ## Mannys.game: An Intro
 Manny is a person.  Manny is also a collection of non-fungible digital clones of Manny.
 
-The original NFT Manny created was released as a psycological [game](https://mannys.game/).  He used a 3d body scan of himself as the token, modifying a select number to have a special characterstic (Zombie Manny, Inverted Manny, Silver Manny, etc.).  He allowed people to mint these for .1 eth each (price at the time was about $3k).  Once someone collected each of the 5 different Mannys, they were entitled to mint the Golden Manny, which allowed them to claim all the ethereum people had paid to mint them.  The winner made out with over 80 eth.
+The original project Manny created was released as a psycological [game](https://mannys.game/).  He used a 3d body scan of himself as a token, modifying a select number to have a special characterstic (Zombie Manny, Inverted Manny, Silver Manny, etc.).  He allowed people to buy these.  Once someone collected each of the 5 different Mannys, they were entitled to claim the Golden Manny, which allowed them to claim all the money people had paid to buy them.  The winner made out with thousands of dollars.
 
-In the following weeks, Manny continued to innovate on his NFT, building integrations with other popular NFTs, as well as allowing customization in the form of a tattoo shop.  This continued dedication to the seemingly silly project lead me to a certain fondness for the project.  I bought one.
+In the following weeks, Manny continued to innovate on his project, building integrations with other popular projects, as well as allowing customization in the form of a tattoo shop.  This continued dedication to the seemingly silly project lead me to a certain fondness for the project.  I bought one.
 
 ## The Mannyverse
 I had found a 3d NFT with a lovely community.  As a game developer, I instictually started playing with it in Unity.  I finally had an NFT that could apply functional utility and wanted to share it with the community.  I developed a few tenants that I felt I had to incorporate in order for the game to be successful:
