@@ -22,9 +22,13 @@ Today it is finally answered.
 
 Inspired by [the physics of Jelly Car](https://www.youtube.com/watch?v=3OmkehAJoyo), I sought to replicate this, but in 3D.
 
+![rat trails](/images/rat/rattrials.gif)
+
 ### Initial Approach
 
 Initially I just built a blob.  But players need something to connect to: a compelling character.  And thus Ratformer (a platformer with rats) was conceived.  While playing around with the blob, I felt it needed a tail, both to convey forward velocity, and because tail physics are fun to look at.  And, well, if it has a tail, it needs a head.
+
+![rat](/images/rat/Rat.png)
 
 ### Phsyics Breakdown
 
@@ -36,7 +40,21 @@ Initially I just built a blob.  But players need something to connect to: a comp
   - 1 gravity force, pull all the points down.  This helps give the shape a "squishy" appearance when landing
 - A Quickhull algorithm implementation that draws a mesh using the points as vertices
 
+![rat points](/images/rat/RatPoints.png)
+
+The points that make up the rat body
+
+![rat points tail](/images/rat/RatPointsTail.png)
+
+The body with the tail points
+
+![rat points skinned](/images/rat/RatPointsSkinned.png)
+
+There's many ways to skin a rat.  This is the Quickhull method.
+
 All in all, this feels very nice, even with limited tuning.  This was a very iterative process; simply relying on baked in Unity physics is not enough for a nice feeling physically "accurate" game.
+
+![rat view](/images/rat/ratview.gif)
 
 ### Iterative Designs
 #### Forces
@@ -57,3 +75,7 @@ Both the head and tail start point are simple spheres, constantly set at the poi
 - Approximate a circle based on rat points in the same plane (X/Z plane)
 - Find the average radius of the circle
 - Place the head point (or tail point) at the point in the circle furthest from the camera, at the average radius distance.  Do this once per frame and you have a head that moves on a "rail" around the rat, always facing the direction the camera is!
+
+![rat points skinned](/images/rat/ratexplosion.gif)
+
+A bonus rat splat

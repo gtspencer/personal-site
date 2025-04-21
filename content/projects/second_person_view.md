@@ -23,3 +23,5 @@ The premise quickly became apparent, albeit quite simple.  You control the view 
 *Don't you have anything better to do than build games that would destroy even the closest relationships?*  Almost never.
 
 This project failed to turn into a viable game.  Mostly because the iterative design work (creating satisfying levels/puzzles) would consume every waking moment of my day.  Maybe one day I'll revisit it, but for now, it serves as a fun little experiment that I, for now, have deemed unviable.
+
+Apologies for the limited showcase here; there's really not much in the way of showing this, considering videos make it look like a super generic character controller.

@@ -13,3 +13,6 @@ categories = [
 +++
 
 I love Outer Wilds.  
+
+#### What I discovered
+The physics themselves are easy.  Making them feel good, where the player feels in control, is hard.
