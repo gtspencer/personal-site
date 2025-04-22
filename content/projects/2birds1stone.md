@@ -12,6 +12,8 @@ categories = [
 ]
 +++
 
+![2birds1stone](/images/2birds1stone/biome.gif)
+
 2 Birds 1 Stone is the first game I ever built.
 
 I was intrigued with VR, at the time a relatively new consumer technology.  The idea that your body itself could be the controller, that physical actions you took could be accurately implemented in a game world, stood out to me.
@@ -32,3 +34,16 @@ I'm still not entirely sure what was so enticing about the premise.  It had nice
 - Personal pride.  
 - The loop of picking up/throwing is as fun as it is easy.  There is something very innate in throwing a rock
 - The goal *sounds* easy, but is not.  You get a taste of it when you hit 1 bird: its easy.  But it logarithmically scales in difficulty.  Hitting 2 with 1 rock *feels* like it should be possible (and it is!) but its SO hard.  I would say 3 would be impossible if I hadn't seen one singular playtester achieve the feat.
+
+The birds use a simple rigidbody controller.  It took a lot of tweaking and adding some sensors that I wouldn't need in a traditional gravity driven controller, but in the end they came out nicely.  They still bump into things and roll every once in a while, but paired with the art style of the birds, this felt complementary.
+
+![2birds1stone](/images/2birds1stone/birdsflight.gif)
+
+#### Iterative Playtests
+I Experimented a lot, and found that even hitting a single bird was difficult when they landed up high in trees alone.  I ended up adding more props lower in the levels where the birds could perch.
+
+In my own playtests, I found this too easy, so I limited the perch probability on these lower objects.
+
+Players didn't struggle as much, but now they only really aimed for the lower birds.  But they were having fun with it, and the rate of hit birds went up, so I had to keep it in.
+
+To balance it, I placed rarer birds up high as well as lowered rock gravity value the higher it got.  This was pretty much unnoticeable from the ground, but helped the rock travel further in it's desired path, making it feel more accurate.
