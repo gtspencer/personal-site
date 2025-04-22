@@ -82,11 +82,6 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Threekly"
-weight = 4
-url = "threekly/"
-
-[[languages.en.menu.main]]
 name = "SOxSO"
 weight = 5
 url = "shoutouts/"
