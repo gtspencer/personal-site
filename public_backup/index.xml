@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spencerobsitnik</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on spencerobsitnik</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Softbody Phsyics Based Rodents</title>
+      <link>http://localhost:1313/projects/ratformer/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ratformer/</guid>
+      <description>&lt;h3 id=&#34;the-ultimate-ratformer&#34;&gt;&#xA;  The Ultimate Ratformer&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#the-ultimate-ratformer&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;What if we could physically simulate accurate rat physics, if rats had a tendency to balloon themselves in outsized proportions and also not act like rats at all?&lt;/p&gt;&#xA;&lt;p&gt;Those familiar with Feynman and his revolutionary work will recognize this theoretical question he posed in his seminal lectures on physics.&lt;/p&gt;&#xA;&lt;p&gt;Today it is finally answered.&lt;/p&gt;&#xA;&lt;p&gt;Inspired by &lt;a href=&#34;https://www.youtube.com/watch?v=3OmkehAJoyo&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the physics of Jelly Car&lt;/a&gt;, I sought to replicate this, but in 3D.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Wall (releasing on Steam Q4 2025!)</title>
+      <link>http://localhost:1313/projects/wall/</link>
+      <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wall/</guid>
+      <description>&lt;p&gt;Disclaimer: Wall is a work in progress, and as such, lots of plot points/beats are omitted.  Please reach out to be considered for playtesting!&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;This is a game about talking to a Wall.  &#xA;Unless it’s about something else.  &#xA;Hard to say, really.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;code&gt;Wall&lt;/code&gt; is a short narrative adventure about friendship, loneliness, and staring at surfaces for meaning.&lt;/p&gt;&#xA;&lt;p&gt;Below is the draft trailer for the game.  Steam page to come shortly, along with a new polished trailer.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cat-er Wilds (The Physics of Outerwilds with a feline friend)</title>
+      <link>http://localhost:1313/projects/outerwilds_clone/</link>
+      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/outerwilds_clone/</guid>
+      <description>&lt;p&gt;I love Outer Wilds.  And I love my cat.  So I combined them.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/physics/CatGif.gif&#34; alt=&#34;outer wilds cat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I started out simply wanting to replicate the gravity simulation in Outer Wilds.  The physics themselves are easy (gravity, acceleration, velocity, etc.).  Making them feel good, where the player feels in control, is hard.&lt;/p&gt;&#xA;&lt;p&gt;Each object has a mass, which exerts a gravitational force on all other objects in game (with the exception of the sun, so it sits stationary).  Below you can see orbits traced out, along with gravitational force information, velocity, and distance from the orbiting central body.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Second Person View</title>
+      <link>http://localhost:1313/projects/second_person_view/</link>
+      <pubDate>Wed, 23 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/second_person_view/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;ve seen first person games.  We&amp;rsquo;ve seen third person games.  But what about second person games?&lt;/p&gt;&#xA;&lt;p&gt;I sought to answer this universal, ubiquitious, and oft asked question the only way I knew how: through annoyance, frustration, and Unity3D.&lt;/p&gt;&#xA;&lt;p&gt;The premise quickly became apparent, albeit quite simple.  You control the view of another person, while they control yours.  You have a body you can move around, but your eyes (and the control of them) belong to another.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Elevator Simulator</title>
+      <link>http://localhost:1313/projects/elevator/</link>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/elevator/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/elevator/elevator.gif&#34; alt=&#34;elevator gif&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have always loved elevator programming, and the small details and differences between the programming in different elevators.  While seemingly identical, a trained eye can notice small differences in how elevators operate.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/elevator/elevator.png&#34; alt=&#34;elevator&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;But the details are rarely as simple or straightforward as they might seem.  When considering the system, it becomes easy to become overwhelmed with what we optimize for: shorter ride times, shorter wait times, weight/capacity, wear on elevator (i.e. minimizing pathing to preserve physical longevity), etc.  Outside of indentical systems, what makes sense for 1 elevator rarely makes sense for another.  The Burj Khalifa (the tallest building in the world), very likely has different elevator programming than your typical apartment building.  In face they have 57 elevators, including 2 layered elevators, that reach a speed of 10m/s!.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Blackout (or Escape the Piano)</title>
+      <link>http://localhost:1313/projects/blackout/</link>
+      <pubDate>Fri, 14 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blackout/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/blackout/vid.gif&#34; alt=&#34;blackout&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Blackout is an experimental &amp;ldquo;game&amp;rdquo; about escaping a giant piano before your screen entirely blacks out.&lt;/p&gt;&#xA;&lt;p&gt;It is an exploration into agency, irrationality, and the feeling of not having control.&lt;/p&gt;&#xA;&lt;p&gt;The game itself feels frustrating and instills an immediate urgency in the player, who has a mere 12 minutes before their screen entirely blacks out.  However, the game becomes more or less unplayable around the 8 minute mark where 2/3rds of the screen is blacked out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Mannyverse: A 3D Web3gl Game</title>
+      <link>http://localhost:1313/projects/mannyverse/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mannyverse/</guid>
+      <description>&lt;p&gt;Disclaimer: At one point I was intrigued by the idea of using verifiably scarce digital assets as primitives in video games.  However revealed incentives of both studios and players signal the near impossibility of this.  CS:GO will never use NFTs for game skins, because they have no financial incentive to do so, and the NFT ecosystem as a whole quickly (maybe immediately) became basterdized by get rich quick schemes, ignoring technological curiosities for sole monetary gain.  In a perfect world, you own your game assets, and can use them anywhere.  But our world is marred in imperfection.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threekly 2: It Continues...</title>
+      <link>http://localhost:1313/threekly/threekly_fri_9.17.21/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/threekly/threekly_fri_9.17.21/</guid>
+      <description>&lt;p&gt;The threeklies continue&amp;hellip;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-a-podcast-i&#34;&gt;&#xA;  1. &lt;strong&gt;A podcast I&amp;rsquo;ve been binging&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-a-podcast-i&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;anthony-pomliano&#34;&gt;&#xA;  Anthony Pomliano&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#anthony-pomliano&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This &lt;a href=&#34;https://www.youtube.com/watch?v=xauCQpnbNAM&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; does a great job explaining it, but in short, it deals with Set Theory.  Imagine a set that contains all sets that do not contain itself.  Does this set contain itself?  The rules of the set says it both should, and should not&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threekly 1: The first Threekly!</title>
+      <link>http://localhost:1313/threekly/threekly_fri_9.10.21/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/threekly/threekly_fri_9.10.21/</guid>
+      <description>&lt;p&gt;And thus begins my first weekly.  A major point of this is exercise is to keep engaged and up to date with both current events and current media.  I often find myself wishing I had kept more up-to-date with certain happenings, and this is my chance to mitigate any of that in the future.  With that being said, let&amp;rsquo;s dive in to this week&amp;rsquo;s Threekly:&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-a-thought-problem-i&#34;&gt;&#xA;  1. &lt;strong&gt;A thought problem I&amp;rsquo;ve been consumed with:&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-a-thought-problem-i&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;russells-paradox&#34;&gt;&#xA;  Russell&amp;rsquo;s Paradox&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#russells-paradox&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This &lt;a href=&#34;https://www.youtube.com/watch?v=xauCQpnbNAM&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; does a great job explaining it, but in short, it deals with Set Theory.  Imagine a set that contains all sets that do not contain itself.  Does this set contain itself?  The rules of the set says it both should, and should not&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flying Blind, a heart-beat sensing game</title>
+      <link>http://localhost:1313/projects/past_project_spotlight_1/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/past_project_spotlight_1/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/flying_blind.PNG&#34; alt=&#34;Flying blind game photo&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gtspencer/flying-blind-heartbeat-sensing-game&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Code&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;design&#34;&gt;&#xA;  Design&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#design&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;p&gt;Flying blind is an experimental VR game where controls are confided to the heart.  Put simply, raise your heartrate to go up, lower your heart rate to go down.&lt;/p&gt;&#xA;&lt;p&gt;The purpose of this prototype was to incorporate controls that extended beyond the traditional human-computer interaction in game design.&lt;/p&gt;&#xA;&lt;p&gt;To achieve this, I chose to use off-the-shelf hardware to track a user&amp;rsquo;s heartbeat, which in turn controls the ship they are on.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>VR Time Machine</title>
+      <link>http://localhost:1313/projects/vr_time_machine/</link>
+      <pubDate>Fri, 15 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/vr_time_machine/</guid>
+      <description>&lt;p&gt;The VR Time Machine is a tool I built to organize and visualize my &amp;ldquo;memories&amp;rdquo;.&lt;/p&gt;&#xA;&lt;p&gt;Being my second project ever, it leaves a lot to be desired in terms of clean code and architecture.&lt;/p&gt;&#xA;&lt;p&gt;However, it still remains fun to load in my pictures, and travel to days of my past.&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/gtspencer/vr-time-machine&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check it out for yourself here&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Spencer Obsitnik (born &lt;strong&gt;Speezy F Baby&lt;/strong&gt;, November 17, 1995) is an Oscar nominated child of four.  After &lt;a href=&#34;http://localhost:1313/facebook&#34; &gt;inventing Facebook&lt;/a&gt; and winning &amp;ldquo;Least Likely to Hyperbolize&amp;rdquo; in a grade school he did not attend, he rode 1000 miles on camelback to diffuse forgotten landmines.  An Ashkenazi Jew by trade, and an Olympic surfer by birthright, he now lays dormant on his vast collections of beanie babies, oxford commas, and Cheerio&amp;rsquo;s Year 2000 pennies, where he wishes to be disturbed only by the Obamas.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Inventor of Facebook</title>
+      <link>http://localhost:1313/facebook/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/facebook/</guid>
+      <description>&lt;p&gt;Spencer Obsitnik invented Facebook.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2birds1stone</title>
+      <link>http://localhost:1313/projects/2birds1stone/</link>
+      <pubDate>Fri, 17 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/2birds1stone/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/2birds1stone/biome.gif&#34; alt=&#34;2birds1stone&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;2 Birds 1 Stone is the first game I ever built.&lt;/p&gt;&#xA;&lt;p&gt;I was intrigued with VR, at the time a relatively new consumer technology.  The idea that your body itself could be the controller, that physical actions you took could be accurately implemented in a game world, stood out to me.&lt;/p&gt;&#xA;&lt;p&gt;So I started prototyping simple real world actions in the game.  The simplest, and most rewarding action, was throwing.  Something humans have always done, and now can do virtually as well.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

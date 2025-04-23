@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Softbody Phsyics Based Rodents · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="The ultimate Rat-former">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Softbody Phsyics Based Rodents">
+  <meta name="twitter:description" content="The ultimate Rat-former">
+
+<meta property="og:url" content="http://localhost:1313/projects/ratformer/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="Softbody Phsyics Based Rodents">
+  <meta property="og:description" content="The ultimate Rat-former">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2025-03-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-03-28T00:00:00+00:00">
+    <meta property="article:tag" content="Dev">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/ratformer/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/ratformer/">
+          Softbody Phsyics Based Rodents
+        </a>
+      </h1>
+    </header>
+
+    <h3 id="the-ultimate-ratformer">
+  The Ultimate Ratformer
+  <a class="heading-link" href="#the-ultimate-ratformer">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>What if we could physically simulate accurate rat physics, if rats had a tendency to balloon themselves in outsized proportions and also not act like rats at all?</p>
+<p>Those familiar with Feynman and his revolutionary work will recognize this theoretical question he posed in his seminal lectures on physics.</p>
+<p>Today it is finally answered.</p>
+<p>Inspired by <a href="https://www.youtube.com/watch?v=3OmkehAJoyo"  class="external-link" target="_blank" rel="noopener">the physics of Jelly Car</a>, I sought to replicate this, but in 3D.</p>
+<p><img src="/images/rat/rattrials.gif" alt="rat trails"></p>
+<h3 id="initial-approach">
+  Initial Approach
+  <a class="heading-link" href="#initial-approach">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Initially I just built a blob.  But players need something to connect to: a compelling character.  And thus Ratformer (a platformer with rats) was conceived.  While playing around with the blob, I felt it needed a tail, both to convey forward velocity, and because tail physics are fun to look at.  And, well, if it has a tail, it needs a head.</p>
+<p><img src="/images/rat/Rat.png" alt="rat"></p>
+<h3 id="phsyics-breakdown">
+  Phsyics Breakdown
+  <a class="heading-link" href="#phsyics-breakdown">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<ul>
+<li>16 points, arranged in a sphere, make up the body</li>
+<li>Each point has 18 forces acting on it at any given time:
+<ul>
+<li>15 spring forces seeking to maintain a constant distance between each of the other points</li>
+<li>1 spring force &ldquo;pushing&rdquo; the point back to it&rsquo;s original position, relative to the other 15 points
+<ul>
+<li>This is done to maintain the shape when all the points are on the same plane, which would cause the 15 spring forces to all push/pull along the same plane</li>
+</ul>
+</li>
+<li>1 gravity force, pulling all the points down.  This helps give the shape a &ldquo;squishy&rdquo; appearance when landing</li>
+<li>1 &ldquo;pressure&rdquo; force that push all points away from the computed center.
+<ul>
+<li>This also acts as the jump force, since lower points will push against the ground when &ldquo;inflated&rdquo;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>A Quickhull algorithm implementation that draws a mesh using the points as vertices</li>
+</ul>
+<p><img src="/images/rat/RatPoints.png" alt="rat points"></p>
+<p>The points that make up the rat body</p>
+<p><img src="/images/rat/RatPointsTail.png" alt="rat points tail"></p>
+<p>The body with the tail points</p>
+<p><img src="/images/rat/RatPointsSkinned.png" alt="rat points skinned"></p>
+<p>There&rsquo;s many ways to skin a rat.  This is the Quickhull method.</p>
+<p>All in all, this feels very nice, even with limited tuning.  This was a very iterative process; simply relying on baked in Unity physics is not enough for a nice feeling physically &ldquo;accurate&rdquo; game.</p>
+<p><img src="/images/rat/ratview.gif" alt="rat view"></p>
+<h3 id="iterative-designs">
+  Iterative Designs
+  <a class="heading-link" href="#iterative-designs">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<h4 id="forces">
+  Forces
+  <a class="heading-link" href="#forces">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Each point initially only had spring forces between other points.  This worked well enough, until large downward forces squashed all the points to a single plane, in which case no upward/downward force between the points was occuring, resulting in a soupy mess.
+I added a spring force to push it back to it&rsquo;s theoretical &ldquo;correct&rdquo; position relative to the other points, which ended up being the exact force neccessary to push the points up from a &ldquo;squashed&rdquo; position</p>
+<h4 id="gravity">
+  Gravity
+  <a class="heading-link" href="#gravity">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Constant gravity resulted in awkward movements.  A common trick platformers use is to increase gravity during &ldquo;falls&rdquo;.  This makes the character feel more reponsive and sticky.  While not physically accurate, it gives a nice &ldquo;punchy&rdquo; feel to the jumps, and makes the player feel like they have more response time on the upward swing of the jump.</p>
+<p>Even more unconstant gravity!  Balloons afford a certain behaviour: floating.  While they do in theory fall at the same rate literally everything else does, air resistance very obviously pushes up on the balloon, causing it to appear to fall slower.  Well balloon rats happen to be the same.  It felt weird the ballooned rat was falling at the same speed as the unballooned rat.  The solution?  Reduce gravity when ballooned.  This gives it a nice floaty feel, and lets the player better control their fall when they unballoon.</p>
+<h4 id="rotation">
+  Rotation
+  <a class="heading-link" href="#rotation">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>First I tried rotating all the points so their forward direction aligned with the camera; a rat needs to be able to turn after all right?  I quickly realized turning 16 rigidbodies in unision around a central point was somewhat outside of the scope of Unity physics;  too many uncontrollable behaviours were popping up.</p>
+<p>That&rsquo;s where the head and tail come in.  The body, being a sphere, doesn&rsquo;t need to turn, we just need the player to <em>think</em> they&rsquo;re turning.  And what better way to convey that than to turn the head and tail?</p>
+<p>Both the head and tail start point are simple spheres, constantly set at the point furthest from the camera on a circle projected from above onto the body of the rat.  The implementation is simple yet elegant:</p>
+<ul>
+<li>Approximate a circle based on rat points in the same plane (X/Z plane)</li>
+<li>Find the average radius of the circle</li>
+<li>Place the head point (or tail point) at the point in the circle furthest from the camera, at the average radius distance.  Do this once per frame and you have a head that moves on a &ldquo;rail&rdquo; around the rat, always facing the direction the camera is!</li>
+</ul>
+<p><img src="/images/rat/ratexplosion.gif" alt="rat points skinned"></p>
+<p>A bonus rat splat</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

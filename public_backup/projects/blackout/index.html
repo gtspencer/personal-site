@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Blackout (or Escape the Piano) · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="Escape a giant piano before you black out">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Blackout (or Escape the Piano)">
+  <meta name="twitter:description" content="Escape a giant piano before you black out">
+
+<meta property="og:url" content="http://localhost:1313/projects/blackout/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="Blackout (or Escape the Piano)">
+  <meta property="og:description" content="Escape a giant piano before you black out">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2022-01-14T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-01-14T00:00:00+00:00">
+    <meta property="article:tag" content="Dev">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/blackout/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/blackout/">
+          Blackout (or Escape the Piano)
+        </a>
+      </h1>
+    </header>
+
+    <p><img src="/images/blackout/vid.gif" alt="blackout"></p>
+<p>Blackout is an experimental &ldquo;game&rdquo; about escaping a giant piano before your screen entirely blacks out.</p>
+<p>It is an exploration into agency, irrationality, and the feeling of not having control.</p>
+<p>The game itself feels frustrating and instills an immediate urgency in the player, who has a mere 12 minutes before their screen entirely blacks out.  However, the game becomes more or less unplayable around the 8 minute mark where 2/3rds of the screen is blacked out.</p>
+<p>This game is not fun, and is more akin to Bennett Foddy&rsquo;s Getting Over It, but with a morose and helpless twist.</p>
+<h4 id="keys">
+  Keys
+  <a class="heading-link" href="#keys">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Each key plays a note when you walked over.  Instead of manually assigning a note to each key, I imported 1 audio clip (middle C), and programmatically determined the pitch by the key&rsquo;s position relative to the other keys.  This gave me an ordering of the keys, which I then applied a modulus operation by 12 to (12 keys in the chromatic scale), to get the octave note and the tone (semitone)</p>
+<p><img src="/images/blackout/keys.png" alt="keys"></p>
+<h4 id="blackout-mechanic">
+  Blackout Mechanic
+  <a class="heading-link" href="#blackout-mechanic">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>I experimented the best way to black out the screen.  First I tried quads covering the screen.  But at the pixel level, this would mean tens of thousands of quads, which tanked performance.</p>
+<p>I ultimately settled on a custom texture, placed in front of the camera and and standardized to the resolution so all resolutions have the same &ldquo;number&rdquo; of pixels.</p>
+<p>Then it was as simple as picking a random pixel, and assigning a black color.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

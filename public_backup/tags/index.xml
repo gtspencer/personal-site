@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on spencerobsitnik</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on spencerobsitnik</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev</title>
+      <link>http://localhost:1313/tags/dev/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bitcoin</title>
+      <link>http://localhost:1313/tags/bitcoin/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/bitcoin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ethereum</title>
+      <link>http://localhost:1313/tags/ethereum/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ethereum/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mannyverse</title>
+      <link>http://localhost:1313/tags/mannyverse/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/mannyverse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nft</title>
+      <link>http://localhost:1313/tags/nft/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/nft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Threekly</title>
+      <link>http://localhost:1313/tags/threekly/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/threekly/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Dev</title>
+      <link>http://localhost:1313/tags/game-dev/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/game-dev/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project</title>
+      <link>http://localhost:1313/tags/project/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/project/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Spotlight</title>
+      <link>http://localhost:1313/tags/spotlight/</link>
+      <pubDate>Tue, 17 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/spotlight/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOxSO</title>
+      <link>http://localhost:1313/tags/soxso/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/soxso/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

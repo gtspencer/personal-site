@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Elevator Simulator · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="I love elevators">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Elevator Simulator">
+  <meta name="twitter:description" content="I love elevators">
+
+<meta property="og:url" content="http://localhost:1313/projects/elevator/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="Elevator Simulator">
+  <meta property="og:description" content="I love elevators">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2023-05-12T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-05-12T00:00:00+00:00">
+    <meta property="article:tag" content="Dev">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/elevator/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/elevator/">
+          Elevator Simulator
+        </a>
+      </h1>
+    </header>
+
+    <p><img src="/images/elevator/elevator.gif" alt="elevator gif"></p>
+<p>I have always loved elevator programming, and the small details and differences between the programming in different elevators.  While seemingly identical, a trained eye can notice small differences in how elevators operate.</p>
+<p><img src="/images/elevator/elevator.png" alt="elevator"></p>
+<p>But the details are rarely as simple or straightforward as they might seem.  When considering the system, it becomes easy to become overwhelmed with what we optimize for: shorter ride times, shorter wait times, weight/capacity, wear on elevator (i.e. minimizing pathing to preserve physical longevity), etc.  Outside of indentical systems, what makes sense for 1 elevator rarely makes sense for another.  The Burj Khalifa (the tallest building in the world), very likely has different elevator programming than your typical apartment building.  In face they have 57 elevators, including 2 layered elevators, that reach a speed of 10m/s!.</p>
+<p>To explore the endless possibilities of elevator programming, I built a simple simulator.  Floors and shafts can be programmatically added and elevators can be configured to optimize for ride time, wait time, or capacity, all while an endless stream of (super dumb) riders flood in and out of the building.</p>
+<p><img src="/images/elevator/elevatorupgrades.png" alt="elevator upgrades"></p>
+<p>Some elevator upgrades</p>
+<p>What did I learn?  Elevators are <em>hard</em>.  One optimization might work for a small crowd (optimized for shorter ride times), but quicky falls apart when large crowds are present (too many people pile up waiting, and all cannot fit on the elevator).</p>
+<p><img src="/images/elevator/allfloors.png" alt="elevator floors"></p>
+<p>There are constant trade offs, and a 1 size fits all solution likely does not exist in regards to elevator programming.</p>
+<p>I revisit this project every few weeks or so; really anytime I notice an elevator programming snafu and want to internally remedy the design.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

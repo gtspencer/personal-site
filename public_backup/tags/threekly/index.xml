@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Threekly on spencerobsitnik</title>
+    <link>http://localhost:1313/tags/threekly/</link>
+    <description>Recent content in Threekly on spencerobsitnik</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 17 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/threekly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Threekly 2: It Continues...</title>
+      <link>http://localhost:1313/threekly/threekly_fri_9.17.21/</link>
+      <pubDate>Fri, 17 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/threekly/threekly_fri_9.17.21/</guid>
+      <description>&lt;p&gt;The threeklies continue&amp;hellip;&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-a-podcast-i&#34;&gt;&#xA;  1. &lt;strong&gt;A podcast I&amp;rsquo;ve been binging&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-a-podcast-i&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;anthony-pomliano&#34;&gt;&#xA;  Anthony Pomliano&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#anthony-pomliano&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This &lt;a href=&#34;https://www.youtube.com/watch?v=xauCQpnbNAM&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; does a great job explaining it, but in short, it deals with Set Theory.  Imagine a set that contains all sets that do not contain itself.  Does this set contain itself?  The rules of the set says it both should, and should not&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threekly 1: The first Threekly!</title>
+      <link>http://localhost:1313/threekly/threekly_fri_9.10.21/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/threekly/threekly_fri_9.10.21/</guid>
+      <description>&lt;p&gt;And thus begins my first weekly.  A major point of this is exercise is to keep engaged and up to date with both current events and current media.  I often find myself wishing I had kept more up-to-date with certain happenings, and this is my chance to mitigate any of that in the future.  With that being said, let&amp;rsquo;s dive in to this week&amp;rsquo;s Threekly:&lt;/p&gt;&#xA;&lt;h1 id=&#34;1-a-thought-problem-i&#34;&gt;&#xA;  1. &lt;strong&gt;A thought problem I&amp;rsquo;ve been consumed with:&lt;/strong&gt;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#1-a-thought-problem-i&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h1&gt;&#xA;&lt;h2 id=&#34;russells-paradox&#34;&gt;&#xA;  Russell&amp;rsquo;s Paradox&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#russells-paradox&#34;&gt;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This &lt;a href=&#34;https://www.youtube.com/watch?v=xauCQpnbNAM&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;video&lt;/a&gt; does a great job explaining it, but in short, it deals with Set Theory.  Imagine a set that contains all sets that do not contain itself.  Does this set contain itself?  The rules of the set says it both should, and should not&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Threekly</title>
+      <link>http://localhost:1313/threekly/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/threekly/</guid>
+      <description>&lt;p&gt;Every week, I choose 3 things that I found that interests me.  This could be a movie or book, an article or a TV show, a song or a quote.&#xA;This was heavily (if not entirely) inspired by Tim Ferriss who does a &amp;ldquo;5-bullet-Friday&amp;rdquo; of a similar nature.&#xA;Check him out here: &lt;a href=&#34;https://tim.blog/&#34;  class=&#34;external-link&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://tim.blog/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mannyverse on spencerobsitnik</title>
+    <link>http://localhost:1313/tags/mannyverse/</link>
+    <description>Recent content in Mannyverse on spencerobsitnik</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/mannyverse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Mannyverse: A 3D Web3gl Game</title>
+      <link>http://localhost:1313/projects/mannyverse/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mannyverse/</guid>
+      <description>&lt;p&gt;Disclaimer: At one point I was intrigued by the idea of using verifiably scarce digital assets as primitives in video games.  However revealed incentives of both studios and players signal the near impossibility of this.  CS:GO will never use NFTs for game skins, because they have no financial incentive to do so, and the NFT ecosystem as a whole quickly (maybe immediately) became basterdized by get rich quick schemes, ignoring technological curiosities for sole monetary gain.  In a perfect world, you own your game assets, and can use them anywhere.  But our world is marred in imperfection.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

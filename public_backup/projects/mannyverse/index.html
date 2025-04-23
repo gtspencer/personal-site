@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  The Mannyverse: A 3D Web3gl Game · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="Welcome to the Mannyverse">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Mannyverse: A 3D Web3gl Game">
+  <meta name="twitter:description" content="Welcome to the Mannyverse">
+
+<meta property="og:url" content="http://localhost:1313/projects/mannyverse/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="The Mannyverse: A 3D Web3gl Game">
+  <meta property="og:description" content="Welcome to the Mannyverse">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2021-09-18T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-09-18T00:00:00+00:00">
+    <meta property="article:tag" content="Nft">
+    <meta property="article:tag" content="Ethereum">
+    <meta property="article:tag" content="Bitcoin">
+    <meta property="article:tag" content="Dev">
+    <meta property="article:tag" content="Mannyverse">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/mannyverse/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/mannyverse/">
+          The Mannyverse: A 3D Web3gl Game
+        </a>
+      </h1>
+    </header>
+
+    <p>Disclaimer: At one point I was intrigued by the idea of using verifiably scarce digital assets as primitives in video games.  However revealed incentives of both studios and players signal the near impossibility of this.  CS:GO will never use NFTs for game skins, because they have no financial incentive to do so, and the NFT ecosystem as a whole quickly (maybe immediately) became basterdized by get rich quick schemes, ignoring technological curiosities for sole monetary gain.  In a perfect world, you own your game assets, and can use them anywhere.  But our world is marred in imperfection.</p>
+<h1 id="welcome-to-the-mannyverse">
+  Welcome to the Mannyverse.
+  <a class="heading-link" href="#welcome-to-the-mannyverse">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p><a href="https://kintisbo.itch.io/mannyverse"  class="external-link" target="_blank" rel="noopener">https://kintisbo.itch.io/mannyverse</a></p>
+<p>The Mannyverse is a custom world I built for a popular 3D project called <a href="https://mannys.game/"  class="external-link" target="_blank" rel="noopener">Mannys.game</a>.</p>
+<h2 id="mannysgame-an-intro">
+  Mannys.game: An Intro
+  <a class="heading-link" href="#mannysgame-an-intro">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Manny is a person.  Manny is also a collection of non-fungible digital clones of Manny.</p>
+<p>The original project Manny created was released as a psycological <a href="https://mannys.game/"  class="external-link" target="_blank" rel="noopener">game</a>.  He used a 3d body scan of himself as a token, modifying a select number to have a special characterstic (Zombie Manny, Inverted Manny, Silver Manny, etc.).  He allowed people to buy these.  Once someone collected each of the 5 different Mannys, they were entitled to claim the Golden Manny, which allowed them to claim all the money people had paid to buy them.  The winner made out with thousands of dollars.</p>
+<p>In the following weeks, Manny continued to innovate on his project, building integrations with other popular projects, as well as allowing customization in the form of a tattoo shop.  This continued dedication to the seemingly silly project lead me to a certain fondness for the project.  I bought one.</p>
+<h2 id="the-mannyverse">
+  The Mannyverse
+  <a class="heading-link" href="#the-mannyverse">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I had found a 3d NFT with a lovely community.  As a game developer, I instictually started playing with it in Unity.  I finally had an NFT that could apply functional utility and wanted to share it with the community.  I developed a few tenants that I felt I had to incorporate in order for the game to be successful:</p>
+<ul>
+<li>Low barrier of entry (aka anybody can play, even without crypto).</li>
+<li>Social</li>
+<li>Interactive (duh)</li>
+<li>Ownable</li>
+</ul>
+<p>With this, I created the <a href="https://kintisbo.itch.io/mannyverse"  class="external-link" target="_blank" rel="noopener">Mannyverse</a>.</p>
+<p>The Mannyverse had 4 main parts:</p>
+<ol>
+<li>A waiting room, for people without a Manny NFT to enjoy the game</li>
+<li>A customizable home environment for Mannys to clothe themselves and display their NFTs</li>
+<li>A social hub for Mannys to gather and play mini-games</li>
+<li>A (puzzle)[projects/mannyverse_puzzle] that lead a sole winner to a glorious prize.</li>
+</ol>
+<p>The game ultimately surpassed 500 unique players, far more than I could have hoped for (there are 1600 Mannys, but I didn&rsquo;t expect them all to play).
+Below are some tasty teases of the world to explore.</p>
+<p>The waiting room (pictured below) enabled players without a Manny to still play.  This space, while sparse, contained a few easter eggs for the over adventurous pseudo-Mannys.
+<img src="/images/waitingroom.jpg" alt="Mannyverse waiting room"></p>
+<p>Mannys are shy and thus their home is kept a secret for only holders.  But here&rsquo;s they view they enjoy:
+<img src="/images/mannyverse.jpg" alt="Manny view"></p>
+<p>The social hub is even secreter&hellip; tucked away in the depths of the Mannyverse&hellip;</p>
+<p>&hellip;and the puzzle is solved!  36 hours after release, our fearless explorer <a href="https://twitter.com/spicedreams_"  class="external-link" target="_blank" rel="noopener">@spicedreams_</a> found the secret hidden in layers of obscurity.</p>
+<p>The puzzle is detailed in another post.  Read about it <a href="/projects/mannyverse_puzzle" >here</a>.</p>
+<h2 id="gaming-nfts">
+  Gaming NFTs
+  <a class="heading-link" href="#gaming-nfts">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>I have been excited about the crossroads of games and cryptocurrencies since I have been in the space.  NFTs seemed to be a lucrative way to integrate the technology in to games in many positive ways:</p>
+<ul>
+<li>Enabling player owned economies</li>
+<li>Digitially enforcing game item scarcity</li>
+<li>Interoperable items</li>
+</ul>
+<p>But I saw a dark side to all of this.  Speculation is rampant in the crypto community, and in the gaming space it is double.  Countless careless NFT projects get away with promises of &ldquo;games in Q4 2022!&rdquo; then either completely ghost their community, or simply don&rsquo;t grasp how difficult game design truly is; building a proper and fun game, one that respects it&rsquo;s community, is difficult and laborsome.  Especially so for 2d images, the leading use for NFTs.</p>
+<p>When Manny released his 3d NFT, I saw an opportunity to deliver on an unmade promise, to rectify the hundreds of empty promises made my anonymous teams of derivative NFTs.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

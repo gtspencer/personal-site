@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Cat-er Wilds (The Physics of Outerwilds with a feline friend) · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="An accurate(ish) universe">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cat-er Wilds (The Physics of Outerwilds with a feline friend)">
+  <meta name="twitter:description" content="An accurate(ish) universe">
+
+<meta property="og:url" content="http://localhost:1313/projects/outerwilds_clone/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="Cat-er Wilds (The Physics of Outerwilds with a feline friend)">
+  <meta property="og:description" content="An accurate(ish) universe">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2024-07-25T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-07-25T00:00:00+00:00">
+    <meta property="article:tag" content="Dev">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/outerwilds_clone/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/outerwilds_clone/">
+          Cat-er Wilds (The Physics of Outerwilds with a feline friend)
+        </a>
+      </h1>
+    </header>
+
+    <p>I love Outer Wilds.  And I love my cat.  So I combined them.</p>
+<p><img src="/images/physics/CatGif.gif" alt="outer wilds cat"></p>
+<p>I started out simply wanting to replicate the gravity simulation in Outer Wilds.  The physics themselves are easy (gravity, acceleration, velocity, etc.).  Making them feel good, where the player feels in control, is hard.</p>
+<p>Each object has a mass, which exerts a gravitational force on all other objects in game (with the exception of the sun, so it sits stationary).  Below you can see orbits traced out, along with gravitational force information, velocity, and distance from the orbiting central body.</p>
+<p>However everything felt lonely and empty.  So I added my cat that I modeled for a previous project.  It has a rigidbody that also reacts to gravity, and attempts to follow a target beside the player.  Meow.</p>
+<p>I&rsquo;m currently working on a ground controller for the cat, so it can land with the player and explore planets with them.</p>
+<p><img src="/images/physics/orbit.png" alt="outer wilds orbit"></p>
+<p>The hard part was alignment.  I took a rather simplistic approach and added trigger colliders to all &ldquo;landables&rdquo;.  When inside of the collider, the Y up vector of the player aligns against the gravitational force.</p>
+<p>In the future, I may try simply using the gravitational force on the player, and aligning with that force when above a certain threshold compared to velocity.  This would allow the player to smack planets with their faces, which is currently unfortunately not possible in my simulation.</p>
+<p><img src="/images/physics/Landing.gif" alt="outer wilds orbit"></p>
+<p>All in all the phsyics are fun to both build and live in.  Maybe I&rsquo;ll turn this into a farming sim.</p>
+<p><img src="/images/physics/takeoff.gif" alt="outer wilds orbit"></p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>

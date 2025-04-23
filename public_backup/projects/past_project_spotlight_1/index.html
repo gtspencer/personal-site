@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <title>
+  Flying Blind, a heart-beat sensing game · spencerobsitnik
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Spencer Obsitnik">
+<meta name="description" content="A game controlled with the heart">
+<meta name="keywords" content="blog,developer,personal">
+
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Flying Blind, a heart-beat sensing game">
+  <meta name="twitter:description" content="A game controlled with the heart">
+
+<meta property="og:url" content="http://localhost:1313/projects/past_project_spotlight_1/">
+  <meta property="og:site_name" content="spencerobsitnik">
+  <meta property="og:title" content="Flying Blind, a heart-beat sensing game">
+  <meta property="og:description" content="A game controlled with the heart">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2021-08-17T00:00:00+00:00">
+    <meta property="article:modified_time" content="2021-08-17T00:00:00+00:00">
+    <meta property="article:tag" content="Game Dev">
+    <meta property="article:tag" content="Dev">
+    <meta property="article:tag" content="Project">
+    <meta property="article:tag" content="Spotlight">
+
+
+
+
+<link rel="canonical" href="http://localhost:1313/projects/past_project_spotlight_1/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.css" media="screen">
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.css" media="screen">
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/img/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="http://localhost:1313/">
+      spencerobsitnik
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/">Projects</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/projects/wall">Wall (Coming to Steam)</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/shoutouts/">SOxSO</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="http://localhost:1313/projects/past_project_spotlight_1/">
+          Flying Blind, a heart-beat sensing game
+        </a>
+      </h1>
+    </header>
+
+    <p><img src="/images/flying_blind.PNG" alt="Flying blind game photo"></p>
+<p><a href="https://github.com/gtspencer/flying-blind-heartbeat-sensing-game"  class="external-link" target="_blank" rel="noopener">Code</a></p>
+<h1 id="design">
+  Design
+  <a class="heading-link" href="#design">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h1>
+<p>Flying blind is an experimental VR game where controls are confided to the heart.  Put simply, raise your heartrate to go up, lower your heart rate to go down.</p>
+<p>The purpose of this prototype was to incorporate controls that extended beyond the traditional human-computer interaction in game design.</p>
+<p>To achieve this, I chose to use off-the-shelf hardware to track a user&rsquo;s heartbeat, which in turn controls the ship they are on.</p>
+<h3 id="software">
+  Software
+  <a class="heading-link" href="#software">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The game polls the heart rate monitor at a rate of 3 hz.  At game start, I &ldquo;calibrate&rdquo; the sensor by taking the heart rate and computing a <a href="https://en.wikipedia.org/wiki/Moving_average"  class="external-link" target="_blank" rel="noopener">moving average</a> across a range of 30 seconds.  This is their &ldquo;resting&rdquo; heart rate.  Once the game starts, participants are encouraged to modulate their breathing to raise or lower their heart rate, thus moving the ship to avoid imminent asteroids.</p>
+<p>The game quires the user&rsquo;s heart rate, and compares it to the moving average.  If higher, the ship moves up; if lower, the ship floats down.  That heart rate is then fed in to the moving average, making it easier to reverse the direction of the ship if the future.</p>
+<h3 id="hardware">
+  Hardware
+  <a class="heading-link" href="#hardware">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>The heart beat sensing module is comprised of an Arduino, and a <a href="https://create.arduino.cc/projecthub/Ingeimaks/diy-heart-rate-sensor-a96e89"  class="external-link" target="_blank" rel="noopener">heart rate monitor attachment</a>:
+<img src="/images/heart-rate-monitor.jpg" alt="Arduino heart rate monitor"></p>
+<p>This connects to the Arduino, which connects to the computer via USB port.</p>
+
+  </article>
+</section>
+
+  
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+      2019 -
+    
+    2025
+     Spencer Obsitnik 
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.js"></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+</html>
