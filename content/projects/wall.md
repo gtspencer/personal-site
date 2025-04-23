@@ -24,7 +24,7 @@ Hard to say, really.
 
 Below is the draft trailer for the game.  Steam page to come shortly, along with a new polished trailer.
 
-{{< youtube kw4JEGw9sdo >}}
+{{< youtube 612gI0i2qWY >}}
 
 Features:
 - A cube-shaped companion with surprisingly deep thoughts

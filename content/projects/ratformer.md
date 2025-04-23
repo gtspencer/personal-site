@@ -33,11 +33,13 @@ Initially I just built a blob.  But players need something to connect to: a comp
 ### Phsyics Breakdown
 
 - 16 points, arranged in a sphere, make up the body
-- Each point has 17 forces acting on it at any given time:
-  - 15 spring forces maintaining seeking to maintain a constant distance between each of the other points
+- Each point has 18 forces acting on it at any given time:
+  - 15 spring forces seeking to maintain a constant distance between each of the other points
   - 1 spring force "pushing" the point back to it's original position, relative to the other 15 points
     - This is done to maintain the shape when all the points are on the same plane, which would cause the 15 spring forces to all push/pull along the same plane
-  - 1 gravity force, pull all the points down.  This helps give the shape a "squishy" appearance when landing
+  - 1 gravity force, pulling all the points down.  This helps give the shape a "squishy" appearance when landing
+  - 1 "pressure" force that push all points away from the computed center.
+    - This also acts as the jump force, since lower points will push against the ground when "inflated"
 - A Quickhull algorithm implementation that draws a mesh using the points as vertices
 
 ![rat points](/images/rat/RatPoints.png)
